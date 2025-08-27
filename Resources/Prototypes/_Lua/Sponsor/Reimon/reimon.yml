@@ -25,9 +25,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/backpack.rsi
+    sprite: _Lua/Sponsor/Reimon/backpack.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/backpack.rsi
+    sprite: _Lua/Sponsor/Reimon/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -66,9 +66,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/belt.rsi
+    sprite: _Lua/Sponsor/Reimon/belt.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/belt.rsi
+    sprite: _Lua/Sponsor/Reimon/belt.rsi
   - type: Item
     size: Huge
   - type: Storage
@@ -95,7 +95,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/cloak.rsi
+    sprite: _Lua/Sponsor/Reimon/cloak.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -108,9 +108,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/hardsuit.rsi
+    sprite: _Lua/Sponsor/Reimon/hardsuit.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/hardsuit.rsi
+    sprite: _Lua/Sponsor/Reimon/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitReimon
   - type: Item
@@ -139,9 +139,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/helmet.rsi
+    sprite: _Lua/Sponsor/Reimon/helmet.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/helmet.rsi
+    sprite: _Lua/Sponsor/Reimon/helmet.rsi
   - type: PointLight
     color: "#d46f11"
     radius: 7
@@ -168,9 +168,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/gloves.rsi
+    sprite: _Lua/Sponsor/Reimon/gloves.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/gloves.rsi
+    sprite: _Lua/Sponsor/Reimon/gloves.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -183,12 +183,12 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/magboots.rsi
+    sprite: _Lua/Sponsor/Reimon/magboots.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleVisuals.Layer" ]
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/magboots.rsi
+    sprite: _Lua/Sponsor/Reimon/magboots.rsi
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -212,9 +212,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/hud.rsi
+    sprite: _Lua/Sponsor/Reimon/hud.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/hud.rsi
+    sprite: _Lua/Sponsor/Reimon/hud.rsi
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
@@ -230,9 +230,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/jumpsuit.rsi
+    sprite: _Lua/Sponsor/Reimon/jumpsuit.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/jumpsuit.rsi
+    sprite: _Lua/Sponsor/Reimon/jumpsuit.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -245,9 +245,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/gasmask.rsi
+    sprite: _Lua/Sponsor/Reimon/gasmask.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/gasmask.rsi
+    sprite: _Lua/Sponsor/Reimon/gasmask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -260,9 +260,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/headset.rsi
+    sprite: _Lua/Sponsor/Reimon/headset.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/headset.rsi
+    sprite: _Lua/Sponsor/Reimon/headset.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -275,9 +275,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/hat.rsi
+    sprite: _Lua/Sponsor/Reimon/hat.rsi
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/hat.rsi
+    sprite: _Lua/Sponsor/Reimon/hat.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -290,10 +290,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/hypo.rsi
+    sprite: _Lua/Sponsor/Reimon/hypo.rsi
     state: icon
   - type: Item
-    sprite: _DeadSpace/Sponsor/Reimon/hypo.rsi
+    sprite: _Lua/Sponsor/Reimon/hypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
@@ -316,14 +316,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/crusher.rsi
+    sprite: _Lua/Sponsor/Reimon/crusher.rsi
     layers:
     - state: icon
   - type: Item
-    sprite: _DeadSpace/Sponsor/Reimon/crusher.rsi
+    sprite: _Lua/Sponsor/Reimon/crusher.rsi
     size: Normal
   - type: Clothing
-    sprite: _DeadSpace/Sponsor/Reimon/crusher.rsi
+    sprite: _Lua/Sponsor/Reimon/crusher.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -337,9 +337,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Icon
-    sprite: _DeadSpace/Sponsor/Reimon/pda.rsi
+    sprite: _Lua/Sponsor/Reimon/pda.rsi
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/pda.rsi
+    sprite: _Lua/Sponsor/Reimon/pda.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: CartridgeLoader
@@ -361,7 +361,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_jawsoflife.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_jawsoflife.rsi
     state: syn_jaws_pry
   - type: Item
     inhandVisuals:
@@ -374,13 +374,13 @@
     entries:
     - behavior: Prying
       sprite:
-        sprite: _DeadSpace/Sponsor/Reimon/tools_jawsoflife.rsi
+        sprite: _Lua/Sponsor/Reimon/tools_jawsoflife.rsi
         state: syn_jaws_pry
       useSound: /Audio/Items/jaws_pry.ogg
       changeSound: /Audio/Items/change_jaws.ogg
     - behavior: Cutting
       sprite:
-        sprite: _DeadSpace/Sponsor/Reimon/tools_jawsoflife.rsi
+        sprite: _Lua/Sponsor/Reimon/tools_jawsoflife.rsi
         state: syn_jaws_cutter
       useSound: /Audio/Items/jaws_cut.ogg
       changeSound: /Audio/Items/change_jaws.ogg
@@ -398,10 +398,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_powerdrill.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_powerdrill.rsi
     state: drill_screw
   - type: Item
-    sprite: _DeadSpace/Sponsor/Reimon/tools_powerdrill.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_powerdrill.rsi
     size: Small
   - type: Tool
     qualities:
@@ -413,7 +413,7 @@
     entries:
     - behavior: Screwing
       sprite:
-        sprite: _DeadSpace/Sponsor/Reimon/tools_powerdrill.rsi
+        sprite: _Lua/Sponsor/Reimon/tools_powerdrill.rsi
         state: drill_screw
       useSound:
         path: /Audio/Items/drill_use.ogg
@@ -421,7 +421,7 @@
         path: /Audio/Items/change_drill.ogg
     - behavior: Anchoring
       sprite:
-        sprite: _DeadSpace/Sponsor/Reimon/tools_powerdrill.rsi
+        sprite: _Lua/Sponsor/Reimon/tools_powerdrill.rsi
         state: drill_bolt
       useSound:
         path: /Audio/Items/drill_use.ogg
@@ -437,9 +437,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_welder.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_welder.rsi
   - type: Item
-    sprite: _DeadSpace/Sponsor/Reimon/tools_welder.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_welder.rsi
 
 # multitool
 - type: entity
@@ -450,7 +450,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_multitool.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_multitool.rsi
 
 # t-ray scanner
 - type: entity
@@ -461,10 +461,10 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_trayscanner.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_trayscanner.rsi
     state: icon
   - type: Item
-    sprite: _DeadSpace/Sponsor/Reimon/tools_trayscanner.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_trayscanner.rsi
 
 # holofan projector
 - type: entity
@@ -475,7 +475,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_holofanprojector.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_holofanprojector.rsi
     state: icon
 
 # gas analyzer
@@ -487,7 +487,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_gasanalyzer.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_gasanalyzer.rsi
     layers:
     - state: icon
       map: ["analyzer"]
@@ -501,9 +501,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
-    sprite: _DeadSpace/Sponsor/Reimon/tools_massscanner.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_massscanner.rsi
   - type: Sprite
-    sprite: _DeadSpace/Sponsor/Reimon/tools_massscanner.rsi
+    sprite: _Lua/Sponsor/Reimon/tools_massscanner.rsi
     state: icon
     layers:
     - state: icon
